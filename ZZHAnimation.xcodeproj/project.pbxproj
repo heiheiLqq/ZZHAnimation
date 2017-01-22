@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		26177B2A1E34DDC1000028D4 /* CATransactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26177B291E34DDC1000028D4 /* CATransactionViewController.m */; };
+		26177B2E1E34E048000028D4 /* CABasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26177B2C1E34E048000028D4 /* CABasicAnimationViewController.m */; };
+		26177B2F1E34E048000028D4 /* CABasicAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26177B2D1E34E048000028D4 /* CABasicAnimationViewController.xib */; };
+		26177B331E34E715000028D4 /* CAKeyframeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26177B311E34E715000028D4 /* CAKeyframeAnimationViewController.m */; };
+		26177B341E34E715000028D4 /* CAKeyframeAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26177B321E34E715000028D4 /* CAKeyframeAnimationViewController.xib */; };
+		26177B371E34E73D000028D4 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26177B361E34E73D000028D4 /* DrawView.m */; };
+		26177B3B1E34EBF8000028D4 /* CAAnimationGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26177B391E34EBF8000028D4 /* CAAnimationGroupViewController.m */; };
+		26177B3C1E34EBF8000028D4 /* CAAnimationGroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26177B3A1E34EBF8000028D4 /* CAAnimationGroupViewController.xib */; };
+		26177B451E34F114000028D4 /* CAAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26177B431E34F114000028D4 /* CAAnimationViewController.m */; };
+		26177B461E34F114000028D4 /* CAAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26177B441E34F114000028D4 /* CAAnimationViewController.xib */; };
 		265628141E34A7E60000E3EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 265628131E34A7E60000E3EF /* main.m */; };
 		265628171E34A7E60000E3EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 265628161E34A7E60000E3EF /* AppDelegate.m */; };
 		2656281A1E34A7E60000E3EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 265628191E34A7E60000E3EF /* ViewController.m */; };
@@ -35,6 +45,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		26177B281E34DDC1000028D4 /* CATransactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransactionViewController.h; sourceTree = "<group>"; };
+		26177B291E34DDC1000028D4 /* CATransactionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransactionViewController.m; sourceTree = "<group>"; };
+		26177B2B1E34E048000028D4 /* CABasicAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CABasicAnimationViewController.h; sourceTree = "<group>"; };
+		26177B2C1E34E048000028D4 /* CABasicAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CABasicAnimationViewController.m; sourceTree = "<group>"; };
+		26177B2D1E34E048000028D4 /* CABasicAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CABasicAnimationViewController.xib; sourceTree = "<group>"; };
+		26177B301E34E715000028D4 /* CAKeyframeAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAKeyframeAnimationViewController.h; sourceTree = "<group>"; };
+		26177B311E34E715000028D4 /* CAKeyframeAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAKeyframeAnimationViewController.m; sourceTree = "<group>"; };
+		26177B321E34E715000028D4 /* CAKeyframeAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CAKeyframeAnimationViewController.xib; sourceTree = "<group>"; };
+		26177B351E34E73D000028D4 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		26177B361E34E73D000028D4 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
+		26177B381E34EBF8000028D4 /* CAAnimationGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAnimationGroupViewController.h; sourceTree = "<group>"; };
+		26177B391E34EBF8000028D4 /* CAAnimationGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAAnimationGroupViewController.m; sourceTree = "<group>"; };
+		26177B3A1E34EBF8000028D4 /* CAAnimationGroupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CAAnimationGroupViewController.xib; sourceTree = "<group>"; };
+		26177B421E34F114000028D4 /* CAAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAnimationViewController.h; sourceTree = "<group>"; };
+		26177B431E34F114000028D4 /* CAAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAAnimationViewController.m; sourceTree = "<group>"; };
+		26177B441E34F114000028D4 /* CAAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CAAnimationViewController.xib; sourceTree = "<group>"; };
 		2656280F1E34A7E60000E3EF /* ZZHAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZHAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		265628131E34A7E60000E3EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		265628151E34A7E60000E3EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +136,22 @@
 				265628201E34A7E60000E3EF /* LaunchScreen.storyboard */,
 				265628231E34A7E60000E3EF /* Info.plist */,
 				265628121E34A7E60000E3EF /* Supporting Files */,
+				26177B281E34DDC1000028D4 /* CATransactionViewController.h */,
+				26177B291E34DDC1000028D4 /* CATransactionViewController.m */,
+				26177B2B1E34E048000028D4 /* CABasicAnimationViewController.h */,
+				26177B2C1E34E048000028D4 /* CABasicAnimationViewController.m */,
+				26177B2D1E34E048000028D4 /* CABasicAnimationViewController.xib */,
+				26177B301E34E715000028D4 /* CAKeyframeAnimationViewController.h */,
+				26177B311E34E715000028D4 /* CAKeyframeAnimationViewController.m */,
+				26177B321E34E715000028D4 /* CAKeyframeAnimationViewController.xib */,
+				26177B351E34E73D000028D4 /* DrawView.h */,
+				26177B361E34E73D000028D4 /* DrawView.m */,
+				26177B381E34EBF8000028D4 /* CAAnimationGroupViewController.h */,
+				26177B391E34EBF8000028D4 /* CAAnimationGroupViewController.m */,
+				26177B3A1E34EBF8000028D4 /* CAAnimationGroupViewController.xib */,
+				26177B421E34F114000028D4 /* CAAnimationViewController.h */,
+				26177B431E34F114000028D4 /* CAAnimationViewController.m */,
+				26177B441E34F114000028D4 /* CAAnimationViewController.xib */,
 			);
 			path = ZZHAnimation;
 			sourceTree = "<group>";
@@ -249,6 +291,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26177B461E34F114000028D4 /* CAAnimationViewController.xib in Resources */,
+				26177B2F1E34E048000028D4 /* CABasicAnimationViewController.xib in Resources */,
+				26177B3C1E34EBF8000028D4 /* CAAnimationGroupViewController.xib in Resources */,
+				26177B341E34E715000028D4 /* CAKeyframeAnimationViewController.xib in Resources */,
 				265628221E34A7E60000E3EF /* LaunchScreen.storyboard in Resources */,
 				2656281F1E34A7E60000E3EF /* Assets.xcassets in Resources */,
 				2656281D1E34A7E60000E3EF /* Main.storyboard in Resources */,
@@ -276,9 +322,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26177B2E1E34E048000028D4 /* CABasicAnimationViewController.m in Sources */,
+				26177B451E34F114000028D4 /* CAAnimationViewController.m in Sources */,
 				2656281A1E34A7E60000E3EF /* ViewController.m in Sources */,
+				26177B2A1E34DDC1000028D4 /* CATransactionViewController.m in Sources */,
 				265628171E34A7E60000E3EF /* AppDelegate.m in Sources */,
+				26177B371E34E73D000028D4 /* DrawView.m in Sources */,
 				265628141E34A7E60000E3EF /* main.m in Sources */,
+				26177B3B1E34EBF8000028D4 /* CAAnimationGroupViewController.m in Sources */,
+				26177B331E34E715000028D4 /* CAKeyframeAnimationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -516,6 +568,7 @@
 				2656283E1E34A7E60000E3EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2656283F1E34A7E60000E3EF /* Build configuration list for PBXNativeTarget "ZZHAnimationTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +577,7 @@
 				265628411E34A7E60000E3EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		265628421E34A7E60000E3EF /* Build configuration list for PBXNativeTarget "ZZHAnimationUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +586,7 @@
 				265628441E34A7E60000E3EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

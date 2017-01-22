@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CABasicAnimationViewController">
+            <connections>
+                <outlet property="positionImageV" destination="nqe-I9-FbP" id="Aec-SB-jtk"/>
+                <outlet property="rotationImageV" destination="xbp-vm-p6v" id="fJf-2O-y84"/>
+                <outlet property="scaleImageV" destination="Bjq-db-tSj" id="e8y-6I-Wu3"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="阿狸头像" translatesAutoresizingMaskIntoConstraints="NO" id="nqe-I9-FbP">
+                    <rect key="frame" x="40" y="80" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="Uu8-85-SeE"/>
+                        <constraint firstAttribute="width" constant="100" id="X2Z-DQ-14I"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="阿狸头像" translatesAutoresizingMaskIntoConstraints="NO" id="Bjq-db-tSj">
+                    <rect key="frame" x="50" y="230" width="100" height="100"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="100" id="A0H-K0-55o"/>
+                        <constraint firstAttribute="width" constant="100" id="KCN-v7-JZ4"/>
+                    </constraints>
+                </imageView>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="阿狸头像" translatesAutoresizingMaskIntoConstraints="NO" id="xbp-vm-p6v">
+                    <rect key="frame" x="200" y="230" width="100" height="100"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="nqe-I9-FbP" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="80" id="381-bu-QsG"/>
+                <constraint firstItem="xbp-vm-p6v" firstAttribute="width" secondItem="Bjq-db-tSj" secondAttribute="width" id="7pS-X6-Ehe"/>
+                <constraint firstItem="xbp-vm-p6v" firstAttribute="top" secondItem="Bjq-db-tSj" secondAttribute="top" id="8ot-R0-SvW"/>
+                <constraint firstItem="Bjq-db-tSj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="50" id="DqM-tR-53Z"/>
+                <constraint firstItem="xbp-vm-p6v" firstAttribute="height" secondItem="Bjq-db-tSj" secondAttribute="height" id="SoP-RL-XWn"/>
+                <constraint firstItem="Bjq-db-tSj" firstAttribute="top" secondItem="nqe-I9-FbP" secondAttribute="bottom" constant="50" id="h4L-yr-xa1"/>
+                <constraint firstItem="nqe-I9-FbP" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="40" id="q1G-Xk-oTG"/>
+                <constraint firstItem="xbp-vm-p6v" firstAttribute="leading" secondItem="Bjq-db-tSj" secondAttribute="trailing" constant="50" id="xcT-jv-I7Y"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="阿狸头像" width="200" height="200"/>
+    </resources>
+</document>
