@@ -15,6 +15,16 @@
 		265628221E34A7E60000E3EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265628201E34A7E60000E3EF /* LaunchScreen.storyboard */; };
 		2656282D1E34A7E60000E3EF /* ZZHAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2656282C1E34A7E60000E3EF /* ZZHAnimationTests.m */; };
 		265628381E34A7E60000E3EF /* ZZHAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 265628371E34A7E60000E3EF /* ZZHAnimationUITests.m */; };
+		26709A061E3624D80050C0DA /* FoldPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26709A041E3624D80050C0DA /* FoldPhotoViewController.m */; };
+		26709A071E3624D80050C0DA /* FoldPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26709A051E3624D80050C0DA /* FoldPhotoViewController.xib */; };
+		26709A0A1E362E3F0050C0DA /* FloadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26709A091E362E3F0050C0DA /* FloadView.m */; };
+		26709A0C1E362E4C0050C0DA /* FloadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26709A0B1E362E4C0050C0DA /* FloadView.xib */; };
+		26709A231E36519D0050C0DA /* CopyLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26709A211E36519D0050C0DA /* CopyLayerViewController.m */; };
+		26709A241E36519D0050C0DA /* CopyLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26709A221E36519D0050C0DA /* CopyLayerViewController.xib */; };
+		26709A271E3654D80050C0DA /* VoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26709A261E3654D80050C0DA /* VoiceView.m */; };
+		26709A291E3654EF0050C0DA /* VoiceView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26709A281E3654EF0050C0DA /* VoiceView.xib */; };
+		26709A2C1E3658790050C0DA /* IndicatorView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26709A2B1E3658790050C0DA /* IndicatorView.m */; };
+		26709A2E1E3658890050C0DA /* IndicatorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26709A2D1E3658890050C0DA /* IndicatorView.xib */; };
 		26D1DEEB1E360164008DBA73 /* CATransactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1DEDD1E360164008DBA73 /* CATransactionViewController.m */; };
 		26D1DEEC1E360164008DBA73 /* CAAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1DEE01E360164008DBA73 /* CAAnimationViewController.m */; };
 		26D1DEED1E360164008DBA73 /* CAAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26D1DEE11E360164008DBA73 /* CAAnimationViewController.xib */; };
@@ -66,6 +76,21 @@
 		265628331E34A7E60000E3EF /* ZZHAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZHAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		265628371E34A7E60000E3EF /* ZZHAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZHAnimationUITests.m; sourceTree = "<group>"; };
 		265628391E34A7E60000E3EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26709A031E3624D80050C0DA /* FoldPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoldPhotoViewController.h; sourceTree = "<group>"; };
+		26709A041E3624D80050C0DA /* FoldPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FoldPhotoViewController.m; sourceTree = "<group>"; };
+		26709A051E3624D80050C0DA /* FoldPhotoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FoldPhotoViewController.xib; sourceTree = "<group>"; };
+		26709A081E362E3F0050C0DA /* FloadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloadView.h; sourceTree = "<group>"; };
+		26709A091E362E3F0050C0DA /* FloadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloadView.m; sourceTree = "<group>"; };
+		26709A0B1E362E4C0050C0DA /* FloadView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FloadView.xib; sourceTree = "<group>"; };
+		26709A201E36519D0050C0DA /* CopyLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CopyLayerViewController.h; sourceTree = "<group>"; };
+		26709A211E36519D0050C0DA /* CopyLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CopyLayerViewController.m; sourceTree = "<group>"; };
+		26709A221E36519D0050C0DA /* CopyLayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CopyLayerViewController.xib; sourceTree = "<group>"; };
+		26709A251E3654D80050C0DA /* VoiceView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceView.h; sourceTree = "<group>"; };
+		26709A261E3654D80050C0DA /* VoiceView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceView.m; sourceTree = "<group>"; };
+		26709A281E3654EF0050C0DA /* VoiceView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoiceView.xib; sourceTree = "<group>"; };
+		26709A2A1E3658790050C0DA /* IndicatorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndicatorView.h; sourceTree = "<group>"; };
+		26709A2B1E3658790050C0DA /* IndicatorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndicatorView.m; sourceTree = "<group>"; };
+		26709A2D1E3658890050C0DA /* IndicatorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IndicatorView.xib; sourceTree = "<group>"; };
 		26D1DEDC1E360164008DBA73 /* CATransactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransactionViewController.h; sourceTree = "<group>"; };
 		26D1DEDD1E360164008DBA73 /* CATransactionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransactionViewController.m; sourceTree = "<group>"; };
 		26D1DEDF1E360164008DBA73 /* CAAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAnimationViewController.h; sourceTree = "<group>"; };
@@ -140,6 +165,8 @@
 		265628111E34A7E60000E3EF /* ZZHAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				26709A1F1E36519D0050C0DA /* 复制图层 */,
+				26709A021E3624A10050C0DA /* 图片折叠 */,
 				26D1DEF31E360175008DBA73 /* CAAnimationGroup */,
 				26D1DEF71E360175008DBA73 /* CABasicAnimation */,
 				26D1DEFB1E360175008DBA73 /* CAKeyframeAnimation */,
@@ -183,6 +210,35 @@
 				265628391E34A7E60000E3EF /* Info.plist */,
 			);
 			path = ZZHAnimationUITests;
+			sourceTree = "<group>";
+		};
+		26709A021E3624A10050C0DA /* 图片折叠 */ = {
+			isa = PBXGroup;
+			children = (
+				26709A031E3624D80050C0DA /* FoldPhotoViewController.h */,
+				26709A041E3624D80050C0DA /* FoldPhotoViewController.m */,
+				26709A051E3624D80050C0DA /* FoldPhotoViewController.xib */,
+				26709A081E362E3F0050C0DA /* FloadView.h */,
+				26709A091E362E3F0050C0DA /* FloadView.m */,
+				26709A0B1E362E4C0050C0DA /* FloadView.xib */,
+			);
+			path = "图片折叠";
+			sourceTree = "<group>";
+		};
+		26709A1F1E36519D0050C0DA /* 复制图层 */ = {
+			isa = PBXGroup;
+			children = (
+				26709A201E36519D0050C0DA /* CopyLayerViewController.h */,
+				26709A211E36519D0050C0DA /* CopyLayerViewController.m */,
+				26709A221E36519D0050C0DA /* CopyLayerViewController.xib */,
+				26709A251E3654D80050C0DA /* VoiceView.h */,
+				26709A261E3654D80050C0DA /* VoiceView.m */,
+				26709A281E3654EF0050C0DA /* VoiceView.xib */,
+				26709A2A1E3658790050C0DA /* IndicatorView.h */,
+				26709A2B1E3658790050C0DA /* IndicatorView.m */,
+				26709A2D1E3658890050C0DA /* IndicatorView.xib */,
+			);
+			path = "复制图层";
 			sourceTree = "<group>";
 		};
 		26D1DEDB1E360164008DBA73 /* 隐式动画 */ = {
@@ -360,14 +416,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				26709A0C1E362E4C0050C0DA /* FloadView.xib in Resources */,
+				26709A291E3654EF0050C0DA /* VoiceView.xib in Resources */,
 				26D1DF041E360175008DBA73 /* CABasicAnimationViewController.xib in Resources */,
 				265628221E34A7E60000E3EF /* LaunchScreen.storyboard in Resources */,
 				26D1DEED1E360164008DBA73 /* CAAnimationViewController.xib in Resources */,
 				26D1DF061E360175008DBA73 /* CAKeyframeAnimationViewController.xib in Resources */,
 				26D1DEF21E360164008DBA73 /* TurntableViewController.xib in Resources */,
 				2656281F1E34A7E60000E3EF /* Assets.xcassets in Resources */,
+				26709A2E1E3658890050C0DA /* IndicatorView.xib in Resources */,
+				26709A241E36519D0050C0DA /* CopyLayerViewController.xib in Resources */,
 				26D1DEF01E360164008DBA73 /* TurntableView.xib in Resources */,
 				26D1DF021E360175008DBA73 /* CAAnimationGroupViewController.xib in Resources */,
+				26709A071E3624D80050C0DA /* FoldPhotoViewController.xib in Resources */,
 				2656281D1E34A7E60000E3EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -397,14 +458,19 @@
 				26D1DF031E360175008DBA73 /* CABasicAnimationViewController.m in Sources */,
 				26D1DF071E360175008DBA73 /* DrawView.m in Sources */,
 				2656281A1E34A7E60000E3EF /* ViewController.m in Sources */,
+				26709A061E3624D80050C0DA /* FoldPhotoViewController.m in Sources */,
 				26D1DEEC1E360164008DBA73 /* CAAnimationViewController.m in Sources */,
 				26D1DF011E360175008DBA73 /* CAAnimationGroupViewController.m in Sources */,
+				26709A2C1E3658790050C0DA /* IndicatorView.m in Sources */,
+				26709A271E3654D80050C0DA /* VoiceView.m in Sources */,
 				26D1DEEF1E360164008DBA73 /* TurntableView.m in Sources */,
 				26D1DEEB1E360164008DBA73 /* CATransactionViewController.m in Sources */,
+				26709A0A1E362E3F0050C0DA /* FloadView.m in Sources */,
 				26D1DEF11E360164008DBA73 /* TurntableViewController.m in Sources */,
 				26D1DEEE1E360164008DBA73 /* TurnBtn.m in Sources */,
 				265628171E34A7E60000E3EF /* AppDelegate.m in Sources */,
 				265628141E34A7E60000E3EF /* main.m in Sources */,
+				26709A231E36519D0050C0DA /* CopyLayerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,6 +13,8 @@
 #import "CAAnimationGroupViewController.h"
 #import "CAAnimationViewController.h"
 #import "TurntableViewController.h"
+#import "FoldPhotoViewController.h"
+#import "CopyLayerViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic,weak)UITableView * tableView;
@@ -44,7 +46,7 @@
     
     if (!_dataSource) {
         
-        _dataSource = @[@"隐式动画",@"CABasicAnimation",@"CAKeyframeAnimation",@"CAAnimationGroup",@"转场动画",@"转盘"];
+        _dataSource = @[@"隐式动画",@"CABasicAnimation",@"CAKeyframeAnimation",@"CAAnimationGroup",@"转场动画",@"转盘",@"图片折叠",@"复制图层"];
     }
     return _dataSource;
     
@@ -114,6 +116,22 @@
         transView.title = @"摇号转盘";
         
         [self.navigationController pushViewController:transView animated:YES];
+    
+    }else if (indexPath.row == 6){
+    
+        FoldPhotoViewController * transView = [[FoldPhotoViewController alloc] init];
+        transView.title = @"图片折叠";
+        
+        [self.navigationController pushViewController:transView animated:YES];
+    
+    }else if (indexPath.row == 7){
+    
+        CopyLayerViewController * transView = [[CopyLayerViewController alloc] init];
+        transView.title = @"复制图层";
+        
+        [self.navigationController pushViewController:transView animated:YES];
+        
+
     
     }
     
