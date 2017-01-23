@@ -12,6 +12,7 @@
 #import "CAKeyframeAnimationViewController.h"
 #import "CAAnimationGroupViewController.h"
 #import "CAAnimationViewController.h"
+#import "TurntableViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic,weak)UITableView * tableView;
@@ -43,7 +44,7 @@
     
     if (!_dataSource) {
         
-        _dataSource = @[@"隐式动画",@"CABasicAnimation",@"CAKeyframeAnimation",@"CAAnimationGroup",@"转场动画"];
+        _dataSource = @[@"隐式动画",@"CABasicAnimation",@"CAKeyframeAnimation",@"CAAnimationGroup",@"转场动画",@"转盘"];
     }
     return _dataSource;
     
@@ -104,6 +105,13 @@
     
         CAAnimationViewController * transView = [[CAAnimationViewController alloc] init];
         transView.title = @"转场动画";
+        
+        [self.navigationController pushViewController:transView animated:YES];
+    
+    }else if (indexPath.row == 5){
+    
+        TurntableViewController * transView = [[TurntableViewController alloc] init];
+        transView.title = @"摇号转盘";
         
         [self.navigationController pushViewController:transView animated:YES];
     

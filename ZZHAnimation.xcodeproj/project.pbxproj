@@ -7,16 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		26177B2A1E34DDC1000028D4 /* CATransactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26177B291E34DDC1000028D4 /* CATransactionViewController.m */; };
-		26177B2E1E34E048000028D4 /* CABasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26177B2C1E34E048000028D4 /* CABasicAnimationViewController.m */; };
-		26177B2F1E34E048000028D4 /* CABasicAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26177B2D1E34E048000028D4 /* CABasicAnimationViewController.xib */; };
-		26177B331E34E715000028D4 /* CAKeyframeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26177B311E34E715000028D4 /* CAKeyframeAnimationViewController.m */; };
-		26177B341E34E715000028D4 /* CAKeyframeAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26177B321E34E715000028D4 /* CAKeyframeAnimationViewController.xib */; };
-		26177B371E34E73D000028D4 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26177B361E34E73D000028D4 /* DrawView.m */; };
-		26177B3B1E34EBF8000028D4 /* CAAnimationGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26177B391E34EBF8000028D4 /* CAAnimationGroupViewController.m */; };
-		26177B3C1E34EBF8000028D4 /* CAAnimationGroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26177B3A1E34EBF8000028D4 /* CAAnimationGroupViewController.xib */; };
-		26177B451E34F114000028D4 /* CAAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26177B431E34F114000028D4 /* CAAnimationViewController.m */; };
-		26177B461E34F114000028D4 /* CAAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26177B441E34F114000028D4 /* CAAnimationViewController.xib */; };
 		265628141E34A7E60000E3EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 265628131E34A7E60000E3EF /* main.m */; };
 		265628171E34A7E60000E3EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 265628161E34A7E60000E3EF /* AppDelegate.m */; };
 		2656281A1E34A7E60000E3EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 265628191E34A7E60000E3EF /* ViewController.m */; };
@@ -25,6 +15,21 @@
 		265628221E34A7E60000E3EF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 265628201E34A7E60000E3EF /* LaunchScreen.storyboard */; };
 		2656282D1E34A7E60000E3EF /* ZZHAnimationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2656282C1E34A7E60000E3EF /* ZZHAnimationTests.m */; };
 		265628381E34A7E60000E3EF /* ZZHAnimationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 265628371E34A7E60000E3EF /* ZZHAnimationUITests.m */; };
+		26D1DEEB1E360164008DBA73 /* CATransactionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1DEDD1E360164008DBA73 /* CATransactionViewController.m */; };
+		26D1DEEC1E360164008DBA73 /* CAAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1DEE01E360164008DBA73 /* CAAnimationViewController.m */; };
+		26D1DEED1E360164008DBA73 /* CAAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26D1DEE11E360164008DBA73 /* CAAnimationViewController.xib */; };
+		26D1DEEE1E360164008DBA73 /* TurnBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1DEE41E360164008DBA73 /* TurnBtn.m */; };
+		26D1DEEF1E360164008DBA73 /* TurntableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1DEE61E360164008DBA73 /* TurntableView.m */; };
+		26D1DEF01E360164008DBA73 /* TurntableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26D1DEE71E360164008DBA73 /* TurntableView.xib */; };
+		26D1DEF11E360164008DBA73 /* TurntableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1DEE91E360164008DBA73 /* TurntableViewController.m */; };
+		26D1DEF21E360164008DBA73 /* TurntableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26D1DEEA1E360164008DBA73 /* TurntableViewController.xib */; };
+		26D1DF011E360175008DBA73 /* CAAnimationGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1DEF51E360175008DBA73 /* CAAnimationGroupViewController.m */; };
+		26D1DF021E360175008DBA73 /* CAAnimationGroupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26D1DEF61E360175008DBA73 /* CAAnimationGroupViewController.xib */; };
+		26D1DF031E360175008DBA73 /* CABasicAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1DEF91E360175008DBA73 /* CABasicAnimationViewController.m */; };
+		26D1DF041E360175008DBA73 /* CABasicAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26D1DEFA1E360175008DBA73 /* CABasicAnimationViewController.xib */; };
+		26D1DF051E360175008DBA73 /* CAKeyframeAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1DEFD1E360175008DBA73 /* CAKeyframeAnimationViewController.m */; };
+		26D1DF061E360175008DBA73 /* CAKeyframeAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 26D1DEFE1E360175008DBA73 /* CAKeyframeAnimationViewController.xib */; };
+		26D1DF071E360175008DBA73 /* DrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26D1DF001E360175008DBA73 /* DrawView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,22 +50,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		26177B281E34DDC1000028D4 /* CATransactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransactionViewController.h; sourceTree = "<group>"; };
-		26177B291E34DDC1000028D4 /* CATransactionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransactionViewController.m; sourceTree = "<group>"; };
-		26177B2B1E34E048000028D4 /* CABasicAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CABasicAnimationViewController.h; sourceTree = "<group>"; };
-		26177B2C1E34E048000028D4 /* CABasicAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CABasicAnimationViewController.m; sourceTree = "<group>"; };
-		26177B2D1E34E048000028D4 /* CABasicAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CABasicAnimationViewController.xib; sourceTree = "<group>"; };
-		26177B301E34E715000028D4 /* CAKeyframeAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAKeyframeAnimationViewController.h; sourceTree = "<group>"; };
-		26177B311E34E715000028D4 /* CAKeyframeAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAKeyframeAnimationViewController.m; sourceTree = "<group>"; };
-		26177B321E34E715000028D4 /* CAKeyframeAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CAKeyframeAnimationViewController.xib; sourceTree = "<group>"; };
-		26177B351E34E73D000028D4 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
-		26177B361E34E73D000028D4 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
-		26177B381E34EBF8000028D4 /* CAAnimationGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAnimationGroupViewController.h; sourceTree = "<group>"; };
-		26177B391E34EBF8000028D4 /* CAAnimationGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAAnimationGroupViewController.m; sourceTree = "<group>"; };
-		26177B3A1E34EBF8000028D4 /* CAAnimationGroupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CAAnimationGroupViewController.xib; sourceTree = "<group>"; };
-		26177B421E34F114000028D4 /* CAAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAnimationViewController.h; sourceTree = "<group>"; };
-		26177B431E34F114000028D4 /* CAAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAAnimationViewController.m; sourceTree = "<group>"; };
-		26177B441E34F114000028D4 /* CAAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CAAnimationViewController.xib; sourceTree = "<group>"; };
 		2656280F1E34A7E60000E3EF /* ZZHAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZHAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		265628131E34A7E60000E3EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		265628151E34A7E60000E3EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -77,6 +66,30 @@
 		265628331E34A7E60000E3EF /* ZZHAnimationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZZHAnimationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		265628371E34A7E60000E3EF /* ZZHAnimationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZZHAnimationUITests.m; sourceTree = "<group>"; };
 		265628391E34A7E60000E3EF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		26D1DEDC1E360164008DBA73 /* CATransactionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATransactionViewController.h; sourceTree = "<group>"; };
+		26D1DEDD1E360164008DBA73 /* CATransactionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATransactionViewController.m; sourceTree = "<group>"; };
+		26D1DEDF1E360164008DBA73 /* CAAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAnimationViewController.h; sourceTree = "<group>"; };
+		26D1DEE01E360164008DBA73 /* CAAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAAnimationViewController.m; sourceTree = "<group>"; };
+		26D1DEE11E360164008DBA73 /* CAAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CAAnimationViewController.xib; sourceTree = "<group>"; };
+		26D1DEE31E360164008DBA73 /* TurnBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurnBtn.h; sourceTree = "<group>"; };
+		26D1DEE41E360164008DBA73 /* TurnBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurnBtn.m; sourceTree = "<group>"; };
+		26D1DEE51E360164008DBA73 /* TurntableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurntableView.h; sourceTree = "<group>"; };
+		26D1DEE61E360164008DBA73 /* TurntableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurntableView.m; sourceTree = "<group>"; };
+		26D1DEE71E360164008DBA73 /* TurntableView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TurntableView.xib; sourceTree = "<group>"; };
+		26D1DEE81E360164008DBA73 /* TurntableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TurntableViewController.h; sourceTree = "<group>"; };
+		26D1DEE91E360164008DBA73 /* TurntableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TurntableViewController.m; sourceTree = "<group>"; };
+		26D1DEEA1E360164008DBA73 /* TurntableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TurntableViewController.xib; sourceTree = "<group>"; };
+		26D1DEF41E360175008DBA73 /* CAAnimationGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAAnimationGroupViewController.h; sourceTree = "<group>"; };
+		26D1DEF51E360175008DBA73 /* CAAnimationGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAAnimationGroupViewController.m; sourceTree = "<group>"; };
+		26D1DEF61E360175008DBA73 /* CAAnimationGroupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CAAnimationGroupViewController.xib; sourceTree = "<group>"; };
+		26D1DEF81E360175008DBA73 /* CABasicAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CABasicAnimationViewController.h; sourceTree = "<group>"; };
+		26D1DEF91E360175008DBA73 /* CABasicAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CABasicAnimationViewController.m; sourceTree = "<group>"; };
+		26D1DEFA1E360175008DBA73 /* CABasicAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CABasicAnimationViewController.xib; sourceTree = "<group>"; };
+		26D1DEFC1E360175008DBA73 /* CAKeyframeAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAKeyframeAnimationViewController.h; sourceTree = "<group>"; };
+		26D1DEFD1E360175008DBA73 /* CAKeyframeAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAKeyframeAnimationViewController.m; sourceTree = "<group>"; };
+		26D1DEFE1E360175008DBA73 /* CAKeyframeAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CAKeyframeAnimationViewController.xib; sourceTree = "<group>"; };
+		26D1DEFF1E360175008DBA73 /* DrawView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawView.h; sourceTree = "<group>"; };
+		26D1DF001E360175008DBA73 /* DrawView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +140,12 @@
 		265628111E34A7E60000E3EF /* ZZHAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				26D1DEF31E360175008DBA73 /* CAAnimationGroup */,
+				26D1DEF71E360175008DBA73 /* CABasicAnimation */,
+				26D1DEFB1E360175008DBA73 /* CAKeyframeAnimation */,
+				26D1DEDB1E360164008DBA73 /* 隐式动画 */,
+				26D1DEDE1E360164008DBA73 /* 转场动画 */,
+				26D1DEE21E360164008DBA73 /* 转盘 */,
 				265628151E34A7E60000E3EF /* AppDelegate.h */,
 				265628161E34A7E60000E3EF /* AppDelegate.m */,
 				265628181E34A7E60000E3EF /* ViewController.h */,
@@ -136,22 +155,6 @@
 				265628201E34A7E60000E3EF /* LaunchScreen.storyboard */,
 				265628231E34A7E60000E3EF /* Info.plist */,
 				265628121E34A7E60000E3EF /* Supporting Files */,
-				26177B281E34DDC1000028D4 /* CATransactionViewController.h */,
-				26177B291E34DDC1000028D4 /* CATransactionViewController.m */,
-				26177B2B1E34E048000028D4 /* CABasicAnimationViewController.h */,
-				26177B2C1E34E048000028D4 /* CABasicAnimationViewController.m */,
-				26177B2D1E34E048000028D4 /* CABasicAnimationViewController.xib */,
-				26177B301E34E715000028D4 /* CAKeyframeAnimationViewController.h */,
-				26177B311E34E715000028D4 /* CAKeyframeAnimationViewController.m */,
-				26177B321E34E715000028D4 /* CAKeyframeAnimationViewController.xib */,
-				26177B351E34E73D000028D4 /* DrawView.h */,
-				26177B361E34E73D000028D4 /* DrawView.m */,
-				26177B381E34EBF8000028D4 /* CAAnimationGroupViewController.h */,
-				26177B391E34EBF8000028D4 /* CAAnimationGroupViewController.m */,
-				26177B3A1E34EBF8000028D4 /* CAAnimationGroupViewController.xib */,
-				26177B421E34F114000028D4 /* CAAnimationViewController.h */,
-				26177B431E34F114000028D4 /* CAAnimationViewController.m */,
-				26177B441E34F114000028D4 /* CAAnimationViewController.xib */,
 			);
 			path = ZZHAnimation;
 			sourceTree = "<group>";
@@ -180,6 +183,72 @@
 				265628391E34A7E60000E3EF /* Info.plist */,
 			);
 			path = ZZHAnimationUITests;
+			sourceTree = "<group>";
+		};
+		26D1DEDB1E360164008DBA73 /* 隐式动画 */ = {
+			isa = PBXGroup;
+			children = (
+				26D1DEDC1E360164008DBA73 /* CATransactionViewController.h */,
+				26D1DEDD1E360164008DBA73 /* CATransactionViewController.m */,
+			);
+			path = "隐式动画";
+			sourceTree = "<group>";
+		};
+		26D1DEDE1E360164008DBA73 /* 转场动画 */ = {
+			isa = PBXGroup;
+			children = (
+				26D1DEDF1E360164008DBA73 /* CAAnimationViewController.h */,
+				26D1DEE01E360164008DBA73 /* CAAnimationViewController.m */,
+				26D1DEE11E360164008DBA73 /* CAAnimationViewController.xib */,
+			);
+			path = "转场动画";
+			sourceTree = "<group>";
+		};
+		26D1DEE21E360164008DBA73 /* 转盘 */ = {
+			isa = PBXGroup;
+			children = (
+				26D1DEE31E360164008DBA73 /* TurnBtn.h */,
+				26D1DEE41E360164008DBA73 /* TurnBtn.m */,
+				26D1DEE51E360164008DBA73 /* TurntableView.h */,
+				26D1DEE61E360164008DBA73 /* TurntableView.m */,
+				26D1DEE71E360164008DBA73 /* TurntableView.xib */,
+				26D1DEE81E360164008DBA73 /* TurntableViewController.h */,
+				26D1DEE91E360164008DBA73 /* TurntableViewController.m */,
+				26D1DEEA1E360164008DBA73 /* TurntableViewController.xib */,
+			);
+			path = "转盘";
+			sourceTree = "<group>";
+		};
+		26D1DEF31E360175008DBA73 /* CAAnimationGroup */ = {
+			isa = PBXGroup;
+			children = (
+				26D1DEF41E360175008DBA73 /* CAAnimationGroupViewController.h */,
+				26D1DEF51E360175008DBA73 /* CAAnimationGroupViewController.m */,
+				26D1DEF61E360175008DBA73 /* CAAnimationGroupViewController.xib */,
+			);
+			path = CAAnimationGroup;
+			sourceTree = "<group>";
+		};
+		26D1DEF71E360175008DBA73 /* CABasicAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				26D1DEF81E360175008DBA73 /* CABasicAnimationViewController.h */,
+				26D1DEF91E360175008DBA73 /* CABasicAnimationViewController.m */,
+				26D1DEFA1E360175008DBA73 /* CABasicAnimationViewController.xib */,
+			);
+			path = CABasicAnimation;
+			sourceTree = "<group>";
+		};
+		26D1DEFB1E360175008DBA73 /* CAKeyframeAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				26D1DEFC1E360175008DBA73 /* CAKeyframeAnimationViewController.h */,
+				26D1DEFD1E360175008DBA73 /* CAKeyframeAnimationViewController.m */,
+				26D1DEFE1E360175008DBA73 /* CAKeyframeAnimationViewController.xib */,
+				26D1DEFF1E360175008DBA73 /* DrawView.h */,
+				26D1DF001E360175008DBA73 /* DrawView.m */,
+			);
+			path = CAKeyframeAnimation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,12 +360,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26177B461E34F114000028D4 /* CAAnimationViewController.xib in Resources */,
-				26177B2F1E34E048000028D4 /* CABasicAnimationViewController.xib in Resources */,
-				26177B3C1E34EBF8000028D4 /* CAAnimationGroupViewController.xib in Resources */,
-				26177B341E34E715000028D4 /* CAKeyframeAnimationViewController.xib in Resources */,
+				26D1DF041E360175008DBA73 /* CABasicAnimationViewController.xib in Resources */,
 				265628221E34A7E60000E3EF /* LaunchScreen.storyboard in Resources */,
+				26D1DEED1E360164008DBA73 /* CAAnimationViewController.xib in Resources */,
+				26D1DF061E360175008DBA73 /* CAKeyframeAnimationViewController.xib in Resources */,
+				26D1DEF21E360164008DBA73 /* TurntableViewController.xib in Resources */,
 				2656281F1E34A7E60000E3EF /* Assets.xcassets in Resources */,
+				26D1DEF01E360164008DBA73 /* TurntableView.xib in Resources */,
+				26D1DF021E360175008DBA73 /* CAAnimationGroupViewController.xib in Resources */,
 				2656281D1E34A7E60000E3EF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,15 +393,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				26177B2E1E34E048000028D4 /* CABasicAnimationViewController.m in Sources */,
-				26177B451E34F114000028D4 /* CAAnimationViewController.m in Sources */,
+				26D1DF051E360175008DBA73 /* CAKeyframeAnimationViewController.m in Sources */,
+				26D1DF031E360175008DBA73 /* CABasicAnimationViewController.m in Sources */,
+				26D1DF071E360175008DBA73 /* DrawView.m in Sources */,
 				2656281A1E34A7E60000E3EF /* ViewController.m in Sources */,
-				26177B2A1E34DDC1000028D4 /* CATransactionViewController.m in Sources */,
+				26D1DEEC1E360164008DBA73 /* CAAnimationViewController.m in Sources */,
+				26D1DF011E360175008DBA73 /* CAAnimationGroupViewController.m in Sources */,
+				26D1DEEF1E360164008DBA73 /* TurntableView.m in Sources */,
+				26D1DEEB1E360164008DBA73 /* CATransactionViewController.m in Sources */,
+				26D1DEF11E360164008DBA73 /* TurntableViewController.m in Sources */,
+				26D1DEEE1E360164008DBA73 /* TurnBtn.m in Sources */,
 				265628171E34A7E60000E3EF /* AppDelegate.m in Sources */,
-				26177B371E34E73D000028D4 /* DrawView.m in Sources */,
 				265628141E34A7E60000E3EF /* main.m in Sources */,
-				26177B3B1E34EBF8000028D4 /* CAAnimationGroupViewController.m in Sources */,
-				26177B331E34E715000028D4 /* CAKeyframeAnimationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
