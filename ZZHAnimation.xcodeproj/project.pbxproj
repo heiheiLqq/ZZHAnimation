@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		264EE8F21E36E766007E55B2 /* InvertedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 264EE8F11E36E766007E55B2 /* InvertedView.m */; };
+		264EE8F41E36E772007E55B2 /* InvertedView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 264EE8F31E36E772007E55B2 /* InvertedView.xib */; };
+		264EE8F81E36F864007E55B2 /* GooViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 264EE8F71E36F864007E55B2 /* GooViewController.m */; };
+		264EE8FE1E36F8EC007E55B2 /* ZZHGooLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 264EE8FD1E36F8EC007E55B2 /* ZZHGooLabel.m */; };
 		265628141E34A7E60000E3EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 265628131E34A7E60000E3EF /* main.m */; };
 		265628171E34A7E60000E3EF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 265628161E34A7E60000E3EF /* AppDelegate.m */; };
 		2656281A1E34A7E60000E3EF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 265628191E34A7E60000E3EF /* ViewController.m */; };
@@ -60,6 +64,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		264EE8F01E36E766007E55B2 /* InvertedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InvertedView.h; sourceTree = "<group>"; };
+		264EE8F11E36E766007E55B2 /* InvertedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InvertedView.m; sourceTree = "<group>"; };
+		264EE8F31E36E772007E55B2 /* InvertedView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InvertedView.xib; sourceTree = "<group>"; };
+		264EE8F61E36F864007E55B2 /* GooViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GooViewController.h; sourceTree = "<group>"; };
+		264EE8F71E36F864007E55B2 /* GooViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GooViewController.m; sourceTree = "<group>"; };
+		264EE8FC1E36F8EC007E55B2 /* ZZHGooLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZZHGooLabel.h; sourceTree = "<group>"; };
+		264EE8FD1E36F8EC007E55B2 /* ZZHGooLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZZHGooLabel.m; sourceTree = "<group>"; };
 		2656280F1E34A7E60000E3EF /* ZZHAnimation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZZHAnimation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		265628131E34A7E60000E3EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		265628151E34A7E60000E3EF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -142,6 +153,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		264EE8F51E36F847007E55B2 /* 仿QQ消息提醒 */ = {
+			isa = PBXGroup;
+			children = (
+				264EE8F61E36F864007E55B2 /* GooViewController.h */,
+				264EE8F71E36F864007E55B2 /* GooViewController.m */,
+				264EE8FC1E36F8EC007E55B2 /* ZZHGooLabel.h */,
+				264EE8FD1E36F8EC007E55B2 /* ZZHGooLabel.m */,
+			);
+			path = "仿QQ消息提醒";
+			sourceTree = "<group>";
+		};
 		265628061E34A7E60000E3EF = {
 			isa = PBXGroup;
 			children = (
@@ -165,6 +187,7 @@
 		265628111E34A7E60000E3EF /* ZZHAnimation */ = {
 			isa = PBXGroup;
 			children = (
+				264EE8F51E36F847007E55B2 /* 仿QQ消息提醒 */,
 				26709A1F1E36519D0050C0DA /* 复制图层 */,
 				26709A021E3624A10050C0DA /* 图片折叠 */,
 				26D1DEF31E360175008DBA73 /* CAAnimationGroup */,
@@ -237,6 +260,9 @@
 				26709A2A1E3658790050C0DA /* IndicatorView.h */,
 				26709A2B1E3658790050C0DA /* IndicatorView.m */,
 				26709A2D1E3658890050C0DA /* IndicatorView.xib */,
+				264EE8F01E36E766007E55B2 /* InvertedView.h */,
+				264EE8F11E36E766007E55B2 /* InvertedView.m */,
+				264EE8F31E36E772007E55B2 /* InvertedView.xib */,
 			);
 			path = "复制图层";
 			sourceTree = "<group>";
@@ -416,6 +442,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				264EE8F41E36E772007E55B2 /* InvertedView.xib in Resources */,
 				26709A0C1E362E4C0050C0DA /* FloadView.xib in Resources */,
 				26709A291E3654EF0050C0DA /* VoiceView.xib in Resources */,
 				26D1DF041E360175008DBA73 /* CABasicAnimationViewController.xib in Resources */,
@@ -463,6 +490,7 @@
 				26D1DF011E360175008DBA73 /* CAAnimationGroupViewController.m in Sources */,
 				26709A2C1E3658790050C0DA /* IndicatorView.m in Sources */,
 				26709A271E3654D80050C0DA /* VoiceView.m in Sources */,
+				264EE8FE1E36F8EC007E55B2 /* ZZHGooLabel.m in Sources */,
 				26D1DEEF1E360164008DBA73 /* TurntableView.m in Sources */,
 				26D1DEEB1E360164008DBA73 /* CATransactionViewController.m in Sources */,
 				26709A0A1E362E3F0050C0DA /* FloadView.m in Sources */,
@@ -471,6 +499,8 @@
 				265628171E34A7E60000E3EF /* AppDelegate.m in Sources */,
 				265628141E34A7E60000E3EF /* main.m in Sources */,
 				26709A231E36519D0050C0DA /* CopyLayerViewController.m in Sources */,
+				264EE8F21E36E766007E55B2 /* InvertedView.m in Sources */,
+				264EE8F81E36F864007E55B2 /* GooViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

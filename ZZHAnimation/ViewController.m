@@ -15,6 +15,7 @@
 #import "TurntableViewController.h"
 #import "FoldPhotoViewController.h"
 #import "CopyLayerViewController.h"
+#import "GooViewController.h"
 @interface ViewController ()<UITableViewDelegate,UITableViewDataSource>
 
 @property (nonatomic,weak)UITableView * tableView;
@@ -46,7 +47,7 @@
     
     if (!_dataSource) {
         
-        _dataSource = @[@"隐式动画",@"CABasicAnimation",@"CAKeyframeAnimation",@"CAAnimationGroup",@"转场动画",@"转盘",@"图片折叠",@"复制图层"];
+        _dataSource = @[@"隐式动画",@"CABasicAnimation",@"CAKeyframeAnimation",@"CAAnimationGroup",@"转场动画",@"转盘",@"图片折叠",@"复制图层",@"仿QQ消息提醒"];
     }
     return _dataSource;
     
@@ -132,6 +133,14 @@
         [self.navigationController pushViewController:transView animated:YES];
         
 
+    
+    }else if (indexPath.row == 8){
+    
+        GooViewController * transView = [[GooViewController alloc] init];
+        transView.title = @"仿QQ消息提醒";
+        
+        [self.navigationController pushViewController:transView animated:YES];
+        
     
     }
     

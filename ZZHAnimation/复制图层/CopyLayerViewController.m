@@ -12,6 +12,8 @@
 
 #include "IndicatorView.h"
 
+#import "InvertedView.h"
+
 @interface CopyLayerViewController ()
 
 @end
@@ -21,15 +23,24 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
+    
 
     VoiceView * vocieView = [VoiceView voiceView];
     vocieView.frame = CGRectMake(10, 70, 200, 200);
     [self.view addSubview:vocieView];
     
     IndicatorView * indicatorView = [IndicatorView indicatorView];
-    indicatorView.frame = CGRectMake(10, CGRectGetMaxY(vocieView.frame)+20,200 , 200);
+    indicatorView.frame = CGRectMake(10, CGRectGetMaxY(vocieView.frame)+20,150 , 150);
     [self.view addSubview:indicatorView];
     
+    
+    InvertedView * invertedView = [InvertedView invertedView];
+    
+    invertedView.frame = CGRectMake(CGRectGetMaxX(indicatorView.frame)+10, CGRectGetMaxY(vocieView.frame)+20,150, 150);
+    
+    [self.view addSubview:invertedView];
+    
+
     
     
 

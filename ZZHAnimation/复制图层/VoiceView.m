@@ -21,7 +21,6 @@
 
     [super awakeFromNib];
     
-    self.backgroundColor = [UIColor whiteColor];
     
     CAReplicatorLayer * repL = [CAReplicatorLayer layer];
     
