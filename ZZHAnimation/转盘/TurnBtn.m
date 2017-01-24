@@ -15,7 +15,6 @@
 {
     CGFloat btnW = self.bounds.size.width;
     CGFloat btnH = self.bounds.size.height;
-    
     CGFloat x = 0;
     CGFloat y = btnH / 2;
     CGFloat w = btnW;

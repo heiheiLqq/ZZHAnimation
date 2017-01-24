@@ -27,8 +27,6 @@
 }
 #pragma mark - xib加载后创建12个按钮
 - (void)awakeFromNib{
-
-
     [super awakeFromNib];
     //设置按钮父控件可以交互
     self.rotationView.userInteractionEnabled = YES;
@@ -47,7 +45,6 @@
     CGFloat imageW = bigImage.size.width / 12 * scale;
     //每个图片的高度
     CGFloat imageH = bigImage.size.height * scale;
-    
     for (int i = 0; i < 12; i ++) {
         //每个图片需要旋转的角度
         CGFloat angle = (30 * i) / 180.0 * M_PI;
@@ -78,9 +75,7 @@
             //默认选中第一张
             [self btnClick:btn];
         }
-        
     }
-
 }
 #pragma mark - 按钮点击
 - (void)btnClick:(TurnBtn *)btn{
@@ -96,65 +91,46 @@
 }
 #pragma mark -选号点击
 - (IBAction)pickerClick:(id)sender {
-    
     // 不需要定时器旋转
     self.link.paused = YES;
-    
     // 中间的转盘快速的旋转，并且不需要与用户交互
-    
     CABasicAnimation *anim = [CABasicAnimation animation];
-    
     anim.keyPath = @"transform.rotation";
-    
     anim.toValue = @(M_PI * 2 * 3);
-    
     anim.duration = 0.5;
     anim.delegate = self;
-    
     [self.rotationView.layer addAnimation:anim forKey:nil];
-    
     // 点击哪个星座，就把当前星座指向中心点上面
-    
     // M_PI 3.14
     // 根据选中的按钮获取旋转的度数,
     // 通过transform获取角度
     CGFloat angle = atan2(self.btn.transform.b, self.btn.transform.a);
-    
     // 旋转转盘
     self.rotationView.transform = CGAffineTransformMakeRotation(-angle);
 }
 #pragma mark -定时器懒加载
 // 1.搞个定时器，每隔一段时间就旋转一定的角度，1秒旋转45°
-
 - (CADisplayLink *)link{
-
     if (!_link) {
-        
+        //CADisplayLink 定时器一秒调用60次
         _link = [CADisplayLink displayLinkWithTarget:self selector:@selector(rotation)];
-
+        //讲定时器添加到驻训华
         [_link addToRunLoop:[NSRunLoop mainRunLoop] forMode:NSDefaultRunLoopMode];
-
     }
     return _link;
 }
 #pragma mark - 定时器绑定的旋转方法
 - (void)rotation{
     // 每一次调用旋转多少 45 \ 60.0
-
     CGFloat angle = (45 / 60.0) * M_PI / 180.0;
-    
     self.rotationView.transform = CGAffineTransformRotate(self.rotationView.transform, angle);
-
 }
 #pragma mark - 开始旋转的方法
 - (void)start{
-
     self.link.paused = NO;
 }
 #pragma mark - 暂停旋转的方法
 - (void)purase {
-
-
     self.link.paused = YES;
 }
 #pragma mark - CAAnimationDelegate

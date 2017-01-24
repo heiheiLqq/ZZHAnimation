@@ -27,10 +27,7 @@
 - (void)awakeFromNib{
 
     [super awakeFromNib];
-    
-    
-    
-    
+
     CAReplicatorLayer *layer =  (CAReplicatorLayer *)self.layer;
     
     layer.anchorPoint = CGPointMake(0.5, 1);
